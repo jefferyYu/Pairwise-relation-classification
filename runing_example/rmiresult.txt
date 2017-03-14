@@ -1,0 +1,57 @@
+loading data...	
+data loaded!	
+vocab size: 	23853	
+vec size: 	300	
+position size: 	193	
+pvec size: 	50	
+==> fold 	1	
+negative samples  1264	
+used mirror negative samples  252	
+positive samples  5936	
+dev_predict F1_score: 80.24% >>>
+test_predict F1_score: 81.89% >>>
+-----------------------------
+dev_predict F1_score: 81.38% >>>
+test_predict F1_score: 82.10% >>>
+-----------------------------
+dev_predict F1_score: 82.50% >>>
+test_predict F1_score: 83.32% >>>
+-----------------------------
+dev_predict F1_score: 82.30% >>>
+test_predict F1_score: 84.30% >>>
+-----------------------------
+dev_predict F1_score: 82.97% >>>
+test_predict F1_score: 84.24% >>>
+-----------------------------
+dev_predict F1_score: 82.48% >>>
+test_predict F1_score: 84.63% >>>
+-----------------------------
+dev_predict F1_score: 83.37% >>>
+test_predict F1_score: 84.27% >>>
+-----------------------------
+dev_predict F1_score: 83.46% >>>
+test_predict F1_score: 84.54% >>>
+-----------------------------
+dev_predict F1_score: 82.79% >>>
+test_predict F1_score: 84.38% >>>
+-----------------------------
+dev_predict F1_score: 82.38% >>>
+test_predict F1_score: 83.81% >>>
+-----------------------------
+dev_predict F1_score: 82.81% >>>
+test_predict F1_score: 84.45% >>>
+-----------------------------
+dev_predict F1_score: 83.46% >>>
+test_predict F1_score: 84.86% >>>
+-----------------------------
+dev_predict F1_score: 83.21% >>>
+test_predict F1_score: 84.52% >>>
+-----------------------------
+dev_predict F1_score: 83.05% >>>
+test_predict F1_score: 84.66% >>>
+-----------------------------
+dev_predict F1_score: 83.06% >>>
+test_predict F1_score: 84.55% >>>
+-----------------------------
+test_predict F1_score: 84.86% >>>
+-----------------------------

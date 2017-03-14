@@ -1,0 +1,50 @@
+1	"The system as described above has its greatest application in an arrayed <e1>configuration</e1> of antenna <e2>elements</e2>."
+Component-Whole(e2,e1)
+Comment: Not a collection: there is structure here, organization.
+
+2	"The <e1>child</e1> was carefully wrapped and bound into the <e2>cradle</e2> by means of a cord."
+Other
+Comment:
+
+3	"The <e1>author</e1> of a keygen uses a <e2>disassembler</e2> to look at the raw assembly code."
+Instrument-Agency(e2,e1)
+Comment:
+
+4	"A misty <e1>ridge</e1> uprises from the <e2>surge</e2>."
+Other
+Comment:
+
+5	"The <e1>student</e1> <e2>association</e2> is the voice of the undergraduate student population of the State University of New York at Buffalo."
+Member-Collection(e1,e2)
+Comment:
+
+6	"This is the sprawling <e1>complex</e1> that is Peru's largest <e2>producer</e2> of silver."
+Other
+Comment:
+
+7	"The current view is that the chronic <e1>inflammation</e1> in the distal part of the stomach caused by Helicobacter pylori <e2>infection</e2> results in an increased acid production from the non-infected upper corpus region of the stomach."
+Cause-Effect(e2,e1)
+Comment:
+
+8	"<e1>People</e1> have been moving back into <e2>downtown</e2>."
+Entity-Destination(e1,e2)
+Comment:
+
+9	"The <e1>lawsonite</e1> was contained in a <e2>platinum crucible</e2> and the counter-weight was a plastic crucible with metal pieces."
+Content-Container(e1,e2)
+Comment: prototypical example
+
+10	"The solute was placed inside a beaker and 5 mL of the <e1>solvent</e1> was pipetted into a 25 mL glass <e2>flask</e2> for each trial."
+Entity-Destination(e1,e2)
+Comment:
+
+11	"The fifty <e1>essays</e1> collected in this <e2>volume</e2> testify to most of the prominent themes from Professor Quispel's scholarly career."
+Member-Collection(e1,e2)
+Comment:
+
+12	"Their <e1>composer</e1> has sunk into <e2>oblivion</e2>."
+Other
+Comment: violates b.1 and c.3
+
+13	"The Pulitzer Committee issues an official <e1>citation</e1> explaining the <e2>reasons</e2> for the award."
+Message-Topic(e1,e2)

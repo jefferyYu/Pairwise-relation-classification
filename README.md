@@ -41,8 +41,10 @@ sh run.sh
 Part3: Results:
 
 By running the codes, you should get the following result (the "main_mipecomb.lua" file refers to the Comb+MI model, while "main_mipecombneg.lua" file refers to the Comb+RMI model):
+
 	       Comb+MI	Comb+RMI
-F1_score    84.08	  84.86
+	       
+F1_score        84.08	  84.86
 
 which is slightly different from the results we report in Table 5 in our paper. 
 The reason is that in our previous experiments, we use a random seed for both Comb+MI and Comb+RMI. 

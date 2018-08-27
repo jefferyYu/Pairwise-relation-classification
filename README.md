@@ -21,6 +21,12 @@ http://aclweb.org/anthology/C/C16/C16-1223.pdf
    The SDPs of test instances are under the folder "SemEval2010_task8_testing_keys", named "test_all.txt".
 4. The ACE data is not included because of licensing issues.
 
+## Requirements
+
+1. Python 2.7
+2. hdf5 (h5py)
+3. Torch7
+
 ## II. Code
 
 #### Part1: Pre-process code: 

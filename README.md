@@ -31,7 +31,7 @@ http://aclweb.org/anthology/C/C16/C16-1223.pdf
 
 #### Part1: Pre-process code: 
 
-You can directly run the following codes:
+- You can directly run the following codes:
 
 ```
 python preprocess_mipe+dep.py
@@ -42,32 +42,32 @@ Note that before you run, you need to download word2vec vectors from here: https
 
 #### Part2: Model Code:
 
-To run the Comb+MI and Comb+RMI, you can just run:
+- To run the Comb+MI and Comb+RMI, you can just run:
 ```bash
 sh run.sh
 ```
 
 #### Part3: Results:
 
-By running the codes, you should get the following result (the "main_mipecomb.lua" file refers to the Comb+MI model, while "main_mipecombneg.lua" file refers to the Comb+RMI model):
+- By running the codes, you should get the following result (the "main_mipecomb.lua" file refers to the Comb+MI model, while "main_mipecombneg.lua" file refers to the Comb+RMI model):
 
 | Metrics       | Comb+MI	    |Comb+RMI|
 | ------------- |:------------:| -----: |
 | F1_score      | 84.08        | 84.86  |
 
 which is slightly different from the results we report in Table 5 in our paper. 
-The reason is that in our previous experiments, we use a random seed for both Comb+MI and Comb+RMI. 
+- The reason is that in our previous experiments, we use a random seed for both Comb+MI and Comb+RMI. 
 But now for fair comparison, we set the seed in both models to the same value 0.
 Also, in this released code, I reduce 80% negative mirror instances while in our paper we reduce 50%. 
 
 
-For convenience, to show our running process, we also attach the "miresult.txt" and "rmiresult.txt" in the folder "runing_example".
+- For convenience, to show our running process, we also attach the "miresult.txt" and "rmiresult.txt" in the folder "runing_example".
 
 
 ## Acknowledgements
 
-Most of the code are based on the code by Harvard NLP group: https://github.com/harvardnlp/sent-conv-torch.
-Using this code means you have read and accepted the copyrights set by the dataset providers.
+- Most of the code are based on the code by Harvard NLP group: https://github.com/harvardnlp/sent-conv-torch.
+- Using this code means you have read and accepted the copyrights set by the dataset providers.
 
 # License:
 

@@ -55,10 +55,7 @@ sh run.sh
 | ------------- |:------------:| -----: |
 | F1_score      | 84.08        | 84.86  |
 
-which is slightly different from the results we report in Table 5 in our paper. 
-- The reason is that in our previous experiments, we use a random seed for both Comb+MI and Comb+RMI. 
-But now for fair comparison, we set the seed in both models to the same value 0.
-Also, in this released code, I reduce 80% negative mirror instances while in our paper we reduce 50%. 
+- The results are slightly different from the results we report in Table 5 in our paper. The reason is that in our previous experiments, we use a random seed for both Comb+MI and Comb+RMI. But now for fair comparison, we set the seed in both models to the same value 0. Also, in this released code, I reduce 80% negative mirror instances while in our paper we reduce 50%. 
 
 
 - For convenience, to show our running process, we also attach the "miresult.txt" and "rmiresult.txt" in the folder "runing_example".

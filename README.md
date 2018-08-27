@@ -37,7 +37,7 @@ http://aclweb.org/anthology/C/C16/C16-1223.pdf
 python preprocess_mipe+dep.py
 ```
 
-Note that before you run, you need to download word2vec vectors from here: https://code.google.com/archive/p/word2vec/  , and then set w2v_path in line 626.
+- Note that before you run, you need to download word2vec vectors from here: https://code.google.com/archive/p/word2vec/  , and then set w2v_path in line 626.
 
 
 #### Part2: Model Code:

@@ -31,9 +31,7 @@ http://aclweb.org/anthology/C/C16/C16-1223.pdf
 
 #### Part1: Pre-process code: 
 
-Run on Python 2.7, and the pre-process code requires Python package hdf5 (the h5py module)
-
-Step 1. You can directly run the following codes:
+You can directly run the following codes:
 
 ```
 python preprocess_mipe+dep.py
@@ -44,7 +42,6 @@ Note that before you run, you need to download word2vec vectors from here: https
 
 #### Part2: Model Code:
 
-Run on Torch7, and the training model requires the lua package: hdf5
 To run the Comb+MI and Comb+RMI, you can just run:
 ```bash
 sh run.sh

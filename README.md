@@ -12,6 +12,12 @@ Pairwise relation classification with mirror instances and a combined convolutio
 COLING 2016
 http://aclweb.org/anthology/C/C16/C16-1223.pdf
 
+## Requirements
+
+1. Python 2.7
+2. hdf5 (h5py)
+3. Torch7
+
 ## I. Data
 
 1. In this releasing code, we just use the Semeval-2010 dataset to show our proposed Comb+MI and Comb+RMI models.
@@ -20,12 +26,6 @@ http://aclweb.org/anthology/C/C16/C16-1223.pdf
    The SDPs of training instances are under the folder "SemEval2010_task8_training", named "train_p1.txt", "train_p2.txt", "train_p3.txt" and "train_p4.txt". Each contains 2000 training instances.
    The SDPs of test instances are under the folder "SemEval2010_task8_testing_keys", named "test_all.txt".
 4. The ACE data is not included because of licensing issues.
-
-## Requirements
-
-1. Python 2.7
-2. hdf5 (h5py)
-3. Torch7
 
 ## II. Code
 
